@@ -16,7 +16,7 @@ body:
       label: What happened?
       description: What did you do, and what went wrong?
       placeholder: |
-        I was looking at the NBA props page and clicked on a player line.
+        I was looking at tonight's NBA moneylines and clicked into a game.
         The page froze and the +EV number disappeared.
     validations:
       required: true
@@ -35,9 +35,9 @@ body:
       label: Steps to reproduce
       description: Walk me through it so I can hit the same bug.
       placeholder: |
-        1. Go to /nba/props
-        2. Filter by "tonight"
-        3. Click any player prop card
+        1. Open the NBA games view
+        2. Filter to "tonight"
+        3. Click any moneyline card
         4. See the freeze
     validations:
       required: true
