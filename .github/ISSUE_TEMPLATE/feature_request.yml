@@ -1,0 +1,51 @@
+name: Feature request
+description: Suggest something new for EV Blacksite
+title: "[Feature] "
+labels: ["feature", "inbox"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Start with the pain, not the solution. Helps me find the best fix.
+      placeholder: |
+        I'm trying to compare a player's prop line across books, but I have
+        to click into each one separately.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like to see?
+      placeholder: A side-by-side view showing all books for a single prop.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      placeholder: Right now I have multiple tabs open. It sucks.
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Mockups / screenshots / references
+      description: Drag images in. Links to other sites doing this well are great too.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: How often would you use this?
+      options:
+        - Every session
+        - Weekly
+        - Occasionally
+        - One-off, but high value when it matters
+    validations:
+      required: true
