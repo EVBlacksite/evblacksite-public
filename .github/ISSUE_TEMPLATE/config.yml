@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Quick question or chat
-    url: https://evblacksite.com
-    about: For general questions, ping me through the site. Use Issues for things that need to be tracked.
+    url: mailto:support@evblacksite.com
+    about: For general questions, email support@evblacksite.com. Use Issues for things that need to be tracked.
