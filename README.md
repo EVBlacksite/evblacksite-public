@@ -19,4 +19,4 @@ batches — usually within a few days. You'll get a notification on your issue
 when it moves to "In Progress" and when it ships.
 
 For anything sensitive (account issues, billing, suspected security stuff)
-don't open a public issue — reach me through the site instead.
+don't open a public issue — email support@evblacksite.com instead.
